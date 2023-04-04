@@ -404,6 +404,7 @@ body {
 .team-soc-link:is(:hover, :focus) {
   background-color: #404bbf;
 }
+/*-----Customers section-----*/
 .customers {
   padding-top: 130px;
   padding-bottom: 120px;
