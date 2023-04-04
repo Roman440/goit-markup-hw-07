@@ -37,6 +37,16 @@
   .footer-column {
     flex-direction: column;
     align-items: center;
+    column-gap: 16px;
+    row-gap: 72px;
+  }
+  .footer-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container1 {
+    text-align: left;
   }
   .signup-input {
     min-width: 398px;
@@ -49,6 +59,15 @@
   }
   .footer-team-soc-list {
     align-items: center;
+  }
+  .footer-subscription-form,
+  .footer-social-media {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-subscription-title {
+    text-align: center;
   }
 }
 /* ------------Team---------- */

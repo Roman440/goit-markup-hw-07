@@ -48,8 +48,11 @@
   }
 
   .footer-subscription-form {
-    justify-content: start;
+    flex-direction: row;
     flex-wrap: wrap;
+  }
+  .footer-subscription-title {
+    text-align: left;
   }
   .footer-column {
     column-gap: 16px;
