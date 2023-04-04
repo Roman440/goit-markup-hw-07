@@ -7,7 +7,7 @@
   .container-mini,
   .customers,
   .footer-column {
-    max-width: 552px;
+    max-width: 565px;
   }
 
   .customers,
@@ -19,13 +19,6 @@
     max-width: none;
   }
 
-  .footer-column {
-    column-gap: 16px;
-    row-gap: 72px;
-    align-items: start;
-    justify-content: left;
-    flex-direction: row;
-  }
   /* ------------Directions--------*/
   .directions-list-list {
     column-gap: 24px;
@@ -56,6 +49,14 @@
 
   .footer-subscription-form {
     justify-content: start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+  }
+  .footer-column {
+    column-gap: 16px;
+    row-gap: 72px;
+    align-items: start;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }

@@ -33,9 +33,23 @@
     text-align: left;
   }
   /* ------------Footer--------*/
-  .footer-container {
+
+  .footer-column {
     flex-direction: column;
+    align-items: center;
   }
-  /* ------------Team---------- */
+  .signup-input {
+    min-width: 398px;
+  }
+  .signup-button {
+    align-items: center;
+  }
+  .footer-social {
+    align-items: center;
+  }
+  .footer-team-soc-list {
+    align-items: center;
+  }
 }
+/* ------------Team---------- */
 /* ------------Mob menu-------------- */
