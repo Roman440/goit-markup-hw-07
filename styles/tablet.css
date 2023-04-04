@@ -2,8 +2,21 @@
   .container {
     max-width: 768px;
   }
+
   .directions-list-list {
+    column-gap: 24px;
+    row-gap: 72px;
     flex-direction: row;
+  }
+
+  .directions-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .directions-subtitle {
+    text-align: left;
+  }
+  .directions-list-list {
   }
 }
 
