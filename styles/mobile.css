@@ -1,0 +1,38 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+  /* -------------Hero----------- */
+  .hero {
+    background-image: var(--rgba), url(../images/people-office.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--rgba), url(../images/people-office-2x.jpg);
+    }
+    .hero-title {
+      font-size: 36px;
+      max-width: 320px;
+    }
+  }
+  /* ------------Directions--------*/
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .directions-subtitle {
+      font-size: 36px;
+    }
+    .directions-item-text {
+      font-size: 16px;
+      text-align: left;
+    }
+    /* ------------Team---------- */
+    .container.container-mini {
+      padding-left: 82px;
+      padding-right: 82px;
+    }
+  }
+  /* ------------Mob menu-------------- */
+}

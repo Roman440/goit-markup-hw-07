@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) {
+  .container,
+  .container.container-mini {
+    max-width: 1160px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  /* --------------Header------------- */
+}
