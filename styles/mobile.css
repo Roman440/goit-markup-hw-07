@@ -2,7 +2,7 @@
   .container,
   .customers,
   .footer-column {
-    max-width: 428px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -17,7 +17,6 @@
     margin-bottom: 72px;
   }
 }
-
 /* ------------Mobile menu--------*/
 
 /* -------------Hero----------- */
@@ -54,10 +53,7 @@
   .directions-icon {
   }
   /* ------------Doing--------*/
-  .doing {
-    display: none;
-    display: block;
-  }
+
   /* ------------Footer--------*/
 
   .footer-column {

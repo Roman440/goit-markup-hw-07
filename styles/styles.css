@@ -313,18 +313,10 @@ body {
 
 /* ------------Doing--------- */
 .doing {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  display: none;
+  display: block;
 }
 
-.doing-list-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-}
-.doing-item {
-  flex-basis: calc((100% - 2 * 24px) / 3);
-}
 .team {
   background-color: #f4f4fd;
   padding-top: 120px;

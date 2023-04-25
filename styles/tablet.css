@@ -37,10 +37,7 @@
 
   /* --------------Header------------- */
   /* ------------Doing--------*/
-  .doing {
-    display: none;
-    display: block;
-  }
+
   /* ------------Custumers------------- */
   .custumers-list {
     flex-direction: row;

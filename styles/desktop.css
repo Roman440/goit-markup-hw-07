@@ -22,6 +22,20 @@
   }
 
   /* ---------------Header------------- */
+  /*-----------Doing------------- */
+  .doing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .doing-list-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .doing-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
   /* ------------Directions--------*/
   .directions-item {
     width: calc((100% - 3 * 24px) / 4);
