@@ -2,10 +2,11 @@
   .container,
   .customers,
   .footer-column {
-    max-width: 426px;
-  }
-  .main-team-item {
-    width: 100%;
+    max-width: 428px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container-sm {
@@ -45,6 +46,17 @@
   .directions-item-text {
     font-size: 16px;
     text-align: left;
+  }
+  .directions-subtitle {
+    font-size: 36px;
+    text-align: center;
+  }
+  .directions-icon {
+  }
+  /* ------------Doing--------*/
+  .doing {
+    display: none;
+    display: block;
   }
   /* ------------Footer--------*/
 

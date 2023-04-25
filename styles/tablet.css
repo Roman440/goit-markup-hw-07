@@ -36,6 +36,16 @@
   }
 
   /* --------------Header------------- */
+  /* ------------Doing--------*/
+  .doing {
+    display: none;
+    display: block;
+  }
+  /* ------------Custumers------------- */
+  .custumers-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   /* ------------Footer--------*/
   .footer-container1 {
     align-items: start;
