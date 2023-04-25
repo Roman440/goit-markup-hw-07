@@ -2,14 +2,28 @@
   .container,
   .customers,
   .footer-column {
-    max-width: 428px;
+    max-width: 426px;
+  }
+  .main-team-item {
+    width: 100%;
   }
 
-  /* -------------Hero----------- */
-  .hero {
-    background-image: var(--rgba), url(../images/people-office.jpg);
+  .container-sm {
+    max-width: 294px;
+  }
+  .main-team-item {
+    max-width: 264px;
+    margin-bottom: 72px;
   }
 }
+
+/* ------------Mobile menu--------*/
+
+/* -------------Hero----------- */
+.hero {
+  background-image: var(--rgba), url(../images/people-office.jpg);
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -18,7 +32,7 @@
   }
   .hero-title {
     font-size: 36px;
-    max-width: 320px;
+    max-width: 350px;
   }
 }
 /* ------------Directions--------*/

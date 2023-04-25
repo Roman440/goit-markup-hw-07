@@ -607,7 +607,7 @@ a.portfolio-card-link.link {
 /*  --------- Footer sign-up form --------- */
 
 .footer-subscription-field {
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .footer-subscription-form {
