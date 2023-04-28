@@ -37,7 +37,14 @@
 
   /* --------------Header------------- */
   /* ------------Doing--------*/
-
+  /* ------------Team--------*/
+  .team-list {
+    display: ;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+  }
   /* ------------Custumers------------- */
   .custumers-list {
     flex-direction: row;
