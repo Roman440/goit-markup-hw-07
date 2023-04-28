@@ -7,22 +7,26 @@
     padding: 0 15px;
     margin: 0 auto;
   }
+}
+.header-container {
+  max-width: 1158px;
+}
 
-  .header-container {
-    max-width: 1158px;
+.footer-container {
+  column-gap: 0;
+  row-gap: 0;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+/* ---------------Header------------- */
+/*-----------Doing------------- */
+@media screen and (min-width: 1200px) {
+  .doing {
+    display: block;
   }
-
-  .footer-container {
-    column-gap: 0;
-    row-gap: 0;
-  }
-
-  .section {
-    padding: 120px 0;
-  }
-
-  /* ---------------Header------------- */
-  /*-----------Doing------------- */
   .doing {
     padding-top: 120px;
     padding-bottom: 120px;

@@ -9,16 +9,10 @@
   .footer-column {
     max-width: 565px;
   }
-
   .customers,
   .footer-column {
     padding: 0;
   }
-
-  /* -.filter-container {
-    max-width: none;
-  }-*/
-
   /* ------------Directions--------*/
   .directions-list-list {
     column-gap: 24px;
@@ -26,9 +20,8 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   .directions-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 48px) / 2);
   }
 
   .directions-subtitle {
@@ -53,7 +46,7 @@
     padding: 0px 0px 32px;
   }
   .main-team-item {
-    width: calc((100% - 96px) / 2);
+    width: calc((100% - 48px) / 2);
     background: #ffffff;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
