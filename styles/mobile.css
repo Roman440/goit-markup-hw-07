@@ -59,6 +59,10 @@
     padding-left: 82px;
     padding-right: 82px;
   }
+  /*-----Customers section-----*/
+  .customers-link {
+    padding: 16px 40px;
+  }
 
   /* ------------Footer--------*/
 

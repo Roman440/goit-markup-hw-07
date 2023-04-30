@@ -7,7 +7,6 @@
   .container-mini,
   .customers,
   .footer-column {
-    max-width: 565px;
   }
   .customers,
   .footer-column {
@@ -51,11 +50,21 @@
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-  /* ------------Custumers------------- */
-  .custumers-list {
-    flex-direction: row;
-    flex-wrap: wrap;
+  /* ------------Custumers------------*/
+  .container.container-desktop-mini {
+    padding-left: 108px;
+    padding-right: 108px;
   }
+  .customers-link {
+    padding: 16px 32px;
+  }
+  .customers-list {
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+
   /* ------------Footer--------*/
   .footer-container1 {
     align-items: start;
