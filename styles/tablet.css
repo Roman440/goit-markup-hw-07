@@ -4,10 +4,6 @@
     max-width: 766px;
   }
 
-  .container-mini,
-  .customers,
-  .footer-column {
-  }
   .customers,
   .footer-column {
     padding: 0;
@@ -155,11 +151,16 @@
     text-align: left;
   }
   .footer-column {
+    max-width: 552px;
     column-gap: 16px;
     row-gap: 72px;
     align-items: start;
     justify-content: left;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  /* ------------Modal------------ */
+  .modal {
+    width: 408px;
   }
 }

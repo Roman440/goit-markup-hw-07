@@ -339,14 +339,14 @@ address {
 }
 /* ------------Directions--------- */
 .directions {
-  padding-top: 120px;
-  padding-bottom: 0px;
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
 
 .directions-list-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 72px;
 }
 .directions-link {
   width: 100%;
@@ -360,10 +360,6 @@ address {
 
 .directions-item {
   width: 100%;
-  /* ---- flex-basis: calc((100% - 3 * 24px) / 4);
-  
-
- border-radius: 4px;-- */
 }
 
 .directions-subtitle {
@@ -640,6 +636,7 @@ a.portfolio-card-link.link {
 .footer-column {
   display: flex;
   align-items: baseline;
+  flex-direction: column;
 }
 
 .footer-social {
@@ -682,6 +679,7 @@ a.portfolio-card-link.link {
   display: flex;
   gap: 24px;
   align-items: center;
+  flex-direction: column;
 }
 .footer-subscription-title {
   font-weight: 500;
@@ -908,7 +906,7 @@ a.portfolio-card-link.link {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-/*------------------ Modal checkbox------------------ */
+/*------------ Modal checkbox------------------ */
 .modal-checkbox-field {
   margin-bottom: 24px;
 }
