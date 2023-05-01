@@ -151,6 +151,7 @@
 <symbol id="sign-up-icon" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M32 2.667l-32 15 10.227 3.156 15.773-12.323-11.998 13.488 0.010 0.003-0.012-0.003v7.345l5.735-5.576 7.265 2.242 5-23.333z"></path>
 </symbol>
-
+<symbol id="icon-menu-hamburger" width="32" height="22" fill="none"><g clip-path="url(#a)"><path stroke="#2E2F42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1.348 20.043h29.538M1.348 10.735h29.538M1.348 1.428h29.538"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h32v22H0z"/></clipPath>
+</symbol>
 </defs>
 </svg>

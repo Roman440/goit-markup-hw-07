@@ -19,6 +19,27 @@
 }
 /* ------------Mobile menu--------*/
 
+.mob-menu {
+  padding: 40px;
+}
+.navigation-mob-link {
+  font-size: 36px;
+}
+.navigation-mob-item {
+  margin-bottom: 40px;
+}
+.address-mob-tell {
+  font-size: 36px;
+}
+.address-mob-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.address-mob-list {
+  margin-bottom: 48px;
+}
+.mob-soc-list {
+  gap: 56px;
+}
 /* -------------Hero----------- */
 .hero {
   background-image: var(--rgba), url(../images/people-office.jpg);
@@ -101,6 +122,8 @@
   .footer-subscription-title {
     text-align: center;
   }
+  /* --------Modal------- */
+  .modal {
+    width: 392px;
+  }
 }
-/* ------------Team---------- */
-/* ------------Mob menu-------------- */
