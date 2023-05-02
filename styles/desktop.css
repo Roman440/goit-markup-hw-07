@@ -29,7 +29,8 @@
 
 .address-list {
   display: flex;
-  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .address-item > a {
   font-style: normal;

@@ -31,6 +31,11 @@
   .address {
     margin-left: auto;
   }
+  .address-list {
+    flex-direction: column;
+    justify-content: right;
+  }
+
   .navigation-list,
   .address {
     display: block;
@@ -152,7 +157,6 @@
   }
   .footer-column {
     max-width: 552px;
-    column-gap: 16px;
     row-gap: 72px;
     align-items: start;
     justify-content: left;

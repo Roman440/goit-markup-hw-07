@@ -273,7 +273,7 @@ address {
   color: var(--hover-button-colorr);
 }
 
-/*--------Hero,Section -------*/
+/*----------------Hero------------------*/
 .hero {
   background: #2e2f42;
   background-image: var(--gradient), url(./images/hero-bg-mob.jpg);
@@ -285,32 +285,18 @@ address {
   padding-bottom: 112px;
   margin: 0 auto;
 }
-/*--.hero {
-  max-width: 1440px;
-  margin: 0 auto;
-  background-image: var(--rgba), url(../images/people-office.jpg);
-  background-color: #2e2f42;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-.hero-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;}--*/
-
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: var(--rgba), url(../images/people-office-2x.jpg);
+    background-image: var(--gradient), url(./images/hero-bg-mob-2x.jpg);
   }
 }
 
 .hero-title {
   margin: 0 auto;
   margin-bottom: 48px;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.11em;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -635,7 +621,7 @@ a.portfolio-card-link.link {
 }
 .footer-column {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-direction: column;
 }
 
