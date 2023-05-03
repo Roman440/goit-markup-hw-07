@@ -276,7 +276,7 @@ address {
 /*----------------Hero------------------*/
 .hero {
   background: #2e2f42;
-  background-image: var(--gradient), url(./images/hero-bg-mob.jpg);
+  background-image: var(--rgba), url(../images/hero-bg-mob.jpg);
   width: 100%;
   background-position: 50% 50%;
   background-size: cover;
@@ -289,14 +289,19 @@ address {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: var(--gradient), url(./images/hero-bg-mob-2x.jpg);
+    background-image: var(--rgba), url(../images/hero-bg-mob-2x.jpg);
   }
 }
-
+.hero-content {
+  justify-items: center;
+  padding: 0;
+  max-width: 100%;
+}
 .hero-title {
   margin: 0 auto;
   margin-bottom: 48px;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.11em;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -314,7 +319,7 @@ address {
   margin-right: auto;
   border-radius: 4px;
   display: flex;
-  border-color: var(--accent-color);
+  border-color: transparent;
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
 }
 .hero-button:hover,
@@ -323,6 +328,7 @@ address {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 /* ------------Directions--------- */
 .directions {
   padding-bottom: 96px;

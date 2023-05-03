@@ -42,6 +42,51 @@
 .current::after {
   bottom: -28px;
 }
+/*------------Hero------------------*/
+.hero {
+  max-width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero {
+  background-image: var(--rgba), url(../images/hero-bg-desktop.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--rgba), url(../images/hero-bg-desktop-2x.jpg);
+  }
+}
+.hero-title {
+  margin-bottom: 48px;
+}
+.hero-button {
+  margin-top: 48px;
+}
+/* ------------Directions--------*/
+.directions-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.directions-list-list {
+  flex-wrap: nowrap;
+}
+.directions-link {
+  display: block;
+  background-color: var(--background-button);
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
+.directions-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.directions-item-text {
+  font-weight: 400;
+}
 /*-----------Doing------------- */
 @media screen and (min-width: 1200px) {
   .doing {
@@ -60,29 +105,7 @@
   .doing-item {
     flex-basis: calc((100% - 2 * 24px) / 3);
   }
-  /* ------------Directions--------*/
-  .directions-item {
-    width: calc((100% - 3 * 24px) / 4);
-  }
-  .directions-list-list {
-    flex-wrap: nowrap;
-  }
-  .directions-link {
-    display: block;
-    background-color: var(--advantage-icons-bg-color);
-    padding: 24px 100px;
-    margin-bottom: 8px;
-  }
 
-  .directions-subtitle {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-  }
-
-  .directions-item-text {
-    font-weight: 400;
-  }
   /* ------------Team--------*/
   .team-list {
     justify-content: center;

@@ -82,6 +82,30 @@
     display: flex;
     align-items: center;
   }
+  /*----------Hero------------------*/
+  .hero {
+    background-image: var(--rgba), url(../images/hero-bg-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--rgba), url(../images/hero-bg-tablet-2x.jpg);
+    }
+  }
+  .hero-content {
+    max-width: 100%;
+  }
+  .hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+  .hero-button {
+    margin-top: 40px;
+  }
   /* ------------Directions--------*/
   .directions-list-list {
     column-gap: 24px;
