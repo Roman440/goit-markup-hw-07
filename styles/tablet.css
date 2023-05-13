@@ -82,6 +82,7 @@
     display: flex;
     align-items: center;
   }
+
   /*----------Hero------------------*/
   .hero {
     background-image: var(--rgba), url(../images/hero-bg-tablet.jpg);
@@ -107,25 +108,24 @@
     margin-top: 40px;
   }
   /* ------------Directions--------*/
-  .directions-list-list {
-    column-gap: 24px;
-    row-gap: 72px;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .directions-item {
-    width: calc((100% - 48px) / 2);
-  }
+  @media screen and (min-width: 768px) {
+    .directions-list-list {
+      column-gap: 24px;
+      row-gap: 72px;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .directions-item {
+      width: calc((100% - 24px) / 2);
+    }
 
-  .directions-subtitle {
-    text-align: left;
+    .directions-subtitle {
+      text-align: left;
+    }
   }
 
   /* ------------Team--------*/
-  .container-mini.container-sm {
-    padding-left: 28px;
-    padding-right: 28px;
-  }
+
   .team-list {
     display: flex;
     justify-content: center;
@@ -148,7 +148,6 @@
     padding-right: 108px;
   }
   .customers-link {
-    padding: 16px 32px;
   }
   .customers-list {
     column-gap: 24px;
