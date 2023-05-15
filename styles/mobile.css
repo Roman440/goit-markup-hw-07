@@ -58,7 +58,7 @@
   margin-bottom: 48px;
 }
 .mob-soc-list {
-  gap: 56px;
+  gap: 36px;
 }
 
 /* ------------Directions--------*/
@@ -74,12 +74,9 @@
 /* ------------Team--------*/
 
 .container-mini.container-sm {
-  padding-left: 82px;
-  padding-right: 82px;
 }
 /*-----Customers section-----*/
 .customers-link {
-  padding: 16px 40px;
 }
 
 /* ------------Footer--------*/
@@ -120,6 +117,6 @@
   text-align: center;
 }
 /* --------Modal------- */
-.modal {
+ї .modal {
   min-width: 392px;
 }
