@@ -12,9 +12,10 @@
   /* --------------Header------------- */
   @media screen and (min-width: 768px) {
     .header {
-      padding-bottom: 9px;
     }
     .navigation-link {
+      display: block;
+      /* --- padding: 16px 0;--- */
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -62,7 +63,7 @@
     .current::after {
       position: absolute;
       left: 0;
-      bottom: -26px;
+      bottom: -23px;
       content: "";
       width: 100%;
       height: 4px;
@@ -82,6 +83,12 @@
     .navigation {
       display: flex;
       align-items: center;
+    }
+    .address-mail.link {
+      padding-bottom: 6px;
+    }
+    .logo {
+      padding-right: 120px;
     }
   }
 
@@ -150,8 +157,6 @@
     padding-bottom: 96px;
   }
   .container.container-desktop-mini {
-    padding-left: 108px;
-    padding-right: 108px;
   }
   .customers-link {
   }
@@ -180,6 +185,9 @@
     flex-wrap: nowrap;
     align-items: left;
   }
+  .footer-social-media {
+    text-align: left;
+  }
   .signup-input {
     min-width: 264px;
   }
@@ -187,12 +195,13 @@
     text-align: left;
   }
   .footer-column {
-    max-width: 552px;
+    max-width: 584px;
     row-gap: 72px;
     align-items: start;
     justify-content: left;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0 15px;
   }
   /* ------------Modal------------ */
   .modal {

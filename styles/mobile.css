@@ -15,7 +15,13 @@
     margin-bottom: 72px;
   }
 }
-
+/*------Header-------*/
+@media screen and (min-width: 320px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
 /*-------------Hero---------------*/
 .hero {
   background-image: var(--rgba), url(../images/hero-bg-mob.jpg);
