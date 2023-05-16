@@ -26,21 +26,25 @@
 .header {
   padding-bottom: 24px;
 }
-
-.address-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.address-item > a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.current::after {
-  bottom: -28px;
+@media screen and (min-width: 1200px) {
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .address-item > a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .current::after {
+    bottom: -28px;
+  }
+  .address-tell {
+    margin-left: 40px;
+  }
 }
 /*------------Hero------------------*/
 .hero {
@@ -59,7 +63,7 @@
   }
 }
 .hero-title {
-  margin-bottom: 48px;
+  margin-bottom: 0px;
 }
 .hero-button {
   margin-top: 48px;
@@ -89,7 +93,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 8px;
+    /* --margin-bottom: 8px;-- */
   }
 
   .directions-item-text {

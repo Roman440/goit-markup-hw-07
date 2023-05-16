@@ -46,19 +46,16 @@
   font-size: 36px;
 }
 .navigation-mob-item {
-  margin-bottom: 40px;
 }
 .address-mob-tell {
-  font-size: 36px;
+  font-size: 24px;
 }
 .address-mob-item:not(:last-child) {
-  margin-bottom: 40px;
 }
 .address-mob-list {
-  margin-bottom: 48px;
 }
 .mob-soc-list {
-  gap: 36px;
+  gap: 30px;
 }
 
 /* ------------Directions--------*/
@@ -116,6 +113,6 @@
   text-align: center;
 }
 /* --------Modal------- */
-ї .modal {
-  min-width: 392px;
+.modal {
+  max-width: 428px;
 }
