@@ -92,8 +92,11 @@
 .footer-container1 {
   text-align: left;
 }
+
 .signup-input {
+  min-width: 264px;
 }
+
 .signup-button {
   align-items: center;
 }
