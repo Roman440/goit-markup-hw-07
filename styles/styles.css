@@ -158,6 +158,9 @@ address {
 .menu-btn-icon {
   stroke: var(--title-text-color);
 }
+.current::after {
+  bottom: -26px;
+}
 /* ------------MOB_MENU-------------- */
 
 .mob-menu {

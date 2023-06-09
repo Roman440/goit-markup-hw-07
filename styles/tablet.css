@@ -63,7 +63,7 @@
     .current::after {
       position: absolute;
       left: 0;
-      bottom: -31px;
+      bottom: -29px;
       content: "";
       width: 100%;
       height: 4px;
