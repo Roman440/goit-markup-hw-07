@@ -124,8 +124,6 @@ address {
 
 /*------Header-------*/
 .header {
-  /*-padding-top: 0px;
-  padding-bottom: 0px;-*/
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -141,7 +139,6 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
-  /* -- margin-right: 76px;*/
 }
 .logo-S {
   color: var(--primary-text-color);
@@ -386,7 +383,7 @@ address {
 .team {
   background-color: #f4f4fd;
   padding-top: 96px;
-  padding-bottom: 128px;
+  padding-bottom: 96px;
   margin: 0 auto;
 }
 .team-text {

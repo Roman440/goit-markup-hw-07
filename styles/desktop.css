@@ -115,6 +115,7 @@
 @media screen and (min-width: 1200px) {
   .doing {
     display: block;
+    padding-bottom: 120px;
   }
   .doing-list-list {
     display: flex;

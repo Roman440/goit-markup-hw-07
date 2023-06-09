@@ -21,6 +21,9 @@
     padding-top: 24px;
     padding-bottom: 24px;
   }
+  /*-.container.header-container {
+    width: 428px;
+  }--*/
 }
 /*-------------Hero---------------*/
 .hero {
@@ -75,9 +78,13 @@
   }
 }
 /* ------------Team--------*/
-
-.container-mini.container-sm {
+@media screen and (min-width: 480px) {
+  .team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
+
 /*-----Customers section-----*/
 .customers-link {
 }
